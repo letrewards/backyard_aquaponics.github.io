@@ -5,13 +5,14 @@ body {
     font-weight: lighter;
 }
 
-.aqua_text{  
-color: mediumaquamarine;
+.aqua_text {
+    color: mediumaquamarine;
 }
 
-.blue_text{  
-color: navy;
+.blue_text {
+    color: navy;
 }
+
 
 /*  clear-fix keeps that block from colapsing, after the section*/
 
@@ -49,6 +50,34 @@ header nav a {
     text-decoration: none;
 }
 
+
+/* unvisited link */
+
+header nav a:link {
+    color: darkslategray;
+}
+
+
+/* visited link */
+
+header nav a:visited {
+    color: darkslategray;
+}
+
+
+/* mouse over link */
+
+header nav a:hover {
+    color: mediumaquamarine;
+}
+
+
+/* selected link */
+
+header nav a:active {
+    color: deepskyblue;
+}
+
 .button-1 a {
     color: white;
     border-radius: 5px;
@@ -60,6 +89,34 @@ header nav a {
     padding: 20px 40px;
     text-align: center;
     text-decoration: none;
+}
+
+
+/* unvisited link */
+
+.button-1 a:link {
+    color: mediumaquamarine;
+}
+
+
+/* visited link */
+
+.button-1 a:visited {
+    color: mediumaquamarine;
+}
+
+
+/* mouse over link */
+
+.button-1 a:hover {
+    color: white;
+}
+
+
+/* selected link */
+
+.button-1 a:active {
+    color: yellow;
 }
 
 <section id="home">...</section> header a {
@@ -162,7 +219,6 @@ p .est-box-rt {
 
 #selection h4 {
     font-size: 20px;
-    
 }
 
 #selection p {
@@ -219,7 +275,7 @@ p .est-box-rt {
     width: 70%;
 }
 
-.fishplant-cont p { 
+.fishplant-cont p {
     padding-left: 60px;
     padding-right: 60px;
 }
@@ -269,7 +325,8 @@ p .est-box-rt {
     text-decoration: none;
     float: left;
     margin-left: 200px;
-    padding-top; 20px;
+    padding-top;
+    20px;
     margin-top: 20px;
 }
 
@@ -286,8 +343,69 @@ p .est-box-rt {
     text-decoration: none;
     float: right;
     margin-right: 200px;
-    padding-top; 20px;
+    padding-top;
+    20px;
     margin-top: 5px;
 }
 
 
+/* unvisited link */
+
+.button-L a:link {
+    color: mediumaquamarine;
+}
+
+
+/* visited link */
+
+.button-L a:visited {
+    color: mediumaquamarine;
+}
+
+
+/* mouse over link */
+
+.button-L a:hover {
+    color: white;
+}
+
+
+/* selected link */
+
+.button-L a:active {
+    color: deepskyblue;
+}
+
+
+/* unvisited link */
+
+.button-R a:link {
+    color: mediumaquamarine;
+}
+
+
+/* visited link */
+
+.button-R a:visited {
+    color: mediumaquamarine;
+}
+
+
+/* mouse over link */
+
+.button-R a:hover {
+    color: white;
+}
+
+
+/* selected link */
+
+.button-R a:active {
+    color: deepskyblue;
+}
+
+<section id="home">...</section> header a {
+    color: black;
+    text-decoration: none;
+    margin-left: 25px;
+}
