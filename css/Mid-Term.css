@@ -57,20 +57,11 @@ header nav a:link {
     color: darkslategray;
 }
 
-
-/* visited link */
-
-header nav a:visited {
-    color: darkslategray;
-}
-
-
 /* mouse over link */
 
 header nav a:hover {
     color: mediumaquamarine;
 }
-
 
 /* selected link */
 
