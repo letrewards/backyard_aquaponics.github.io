@@ -28,6 +28,21 @@ html {
     font-weight: 400;
 }
 
+@media (max-width: 768px) {
+    .navbar-header h1 {
+    padding-left: 175px;
+    font-size: 20px;
+}
+}
+
+@media (max-width: 1168px) {
+    .navbar-header h1 {
+    padding-left: 175px;
+    font-size: 20px;
+}
+}
+
+
 #mynav li a {
     color: aquamarine;
     margin-top: 20px;
@@ -167,9 +182,6 @@ html {
     font-weight: 200;
 }
 
-#about button {
-    text-align: center;
-}
 
 #selection {
     width: 95%;
